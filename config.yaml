@@ -1,0 +1,20 @@
+
+rounds: 12
+drift_round: 5
+attack_round: 6
+
+seeds:
+  - 10
+  - 20
+  - 30
+  - 40
+  - 50
+
+systems:
+  - full
+  - no_fl
+  - no_adapt
+  - no_twin
+  - no_cl
+
+adapt_threshold: 0.3
